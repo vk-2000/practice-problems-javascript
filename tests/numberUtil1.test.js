@@ -12,3 +12,9 @@ describe("Are digits same (regular function)", () => {
         expect(areDigitSame(input)).toBe(expected);
     });
 });
+
+describe("Are digits same (arrow function)", () => {
+    test.each(cases)("%d should give %s", (input, expected) => {
+        expect(areDigitSameArrow(input)).toBe(expected);
+    });
+});
