@@ -24,3 +24,6 @@ const changeCapitalizationArrow = (str) => {
 
 console.log(changeCapitalization("aB Bc 123"));
 console.log(changeCapitalizationArrow("ab bc 123"));
+
+module.exports = changeCapitalization;
+module.exports = changeCapitalizationArrow;

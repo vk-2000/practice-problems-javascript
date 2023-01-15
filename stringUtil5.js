@@ -43,3 +43,6 @@ const replaceCharactersArrow = str => {
 }
 
 console.log(replaceCharacters("abs12cdez AZ"));
+
+module.exports = replaceCharacters;
+module.exports = replaceCharactersArrow;

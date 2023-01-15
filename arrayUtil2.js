@@ -6,3 +6,6 @@ function longestString(array){
 const longestStringArrow = (array) => array.reduce((longest, current) => current.length > longest.length ? current : longest, array[0])
 
 console.log(longestStringArrow(["", "love", "code code code", "academy"]));
+
+module.exports = longestString;
+module.exports = longestStringArrow;

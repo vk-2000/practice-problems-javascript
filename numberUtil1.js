@@ -24,3 +24,6 @@ const areDigitSameArrow = (num) => {
 
 console.log(areDigitSame(2223));
 console.log(areDigitSame(444));
+
+module.exports = areDigitSame;
+module.exports = areDigitSameArrow;
