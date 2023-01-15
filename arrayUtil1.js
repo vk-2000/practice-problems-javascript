@@ -24,3 +24,6 @@ const largestEvenArrow = (array) => {
 
 console.log(largestEven([1,-221,13,-14,5]));
 
+module.exports = largestEven;
+module.exports = largestEvenArrow;
+
